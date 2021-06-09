@@ -125,12 +125,7 @@ this.options.datacommit = false
             "": ""
           },
           "parameters": {},
-          "messageHandlers": {
-            "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-          },
+          "messageHandlers": {},
           "title": "number"
         },
         {
@@ -161,12 +156,7 @@ this.options.datacommit = false
             "": ""
           },
           "parameters": {},
-          "messageHandlers": {
-            "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-          },
+          "messageHandlers": {},
           "title": "age"
         },
         {
