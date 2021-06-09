@@ -209,8 +209,8 @@ this.options.datacommit = false
           "content": [
             {
               "type": "i-text",
-              "left": -11,
-              "top": -250,
+              "left": 0,
+              "top": -213,
               "angle": 0,
               "width": 682,
               "height": 82.54,
@@ -227,51 +227,21 @@ this.options.datacommit = false
             },
             {
               "type": "i-text",
-              "left": 0,
-              "top": -125,
-              "angle": 0,
-              "width": 770,
-              "height": 82.54,
-              "stroke": null,
-              "strokeWidth": 1,
-              "fill": "black",
-              "text": "新型コロナウイルス感染症対策により、大学時代に海外留学やサークル活動、\n一部の実習などが制限された結果、十分な自己PRの材料を持たないまま\n就職活動に臨むことを余儀なくされています。",
-              "fontStyle": "normal",
-              "fontWeight": "normal",
-              "fontSize": "22",
-              "fontFamily": "sans-serif",
-              "lineHeight": 1.16,
-              "textAlign": "center"
-            },
-            {
-              "type": "i-text",
               "left": 25,
               "top": -25,
               "angle": 0,
-              "width": 704,
-              "height": 53.7,
+              "width": 2,
+              "height": 24.86,
               "stroke": null,
               "strokeWidth": 1,
               "fill": "black",
-              "text": "実質ＧＤＰ成長率が戦後最悪レベルの落ち込みとなった今、\n従来の就職活動では内定が貰えないという厳しい状況が続いています。",
+              "text": "",
               "fontStyle": "normal",
               "fontWeight": "normal",
               "fontSize": "22",
               "fontFamily": "sans-serif",
               "lineHeight": 1.16,
               "textAlign": "center"
-            },
-            {
-              "type": "image",
-              "left": -62,
-              "top": 161,
-              "angle": 0,
-              "width": 301.5,
-              "height": 250.6,
-              "stroke": null,
-              "strokeWidth": 0,
-              "fill": "black",
-              "src": "${ this.files[\"大卒就職内定率　図.jpg\"] }"
             },
             {
               "type": "i-text",
@@ -326,6 +296,54 @@ this.options.datacommit = false
               "fontFamily": "sans-serif",
               "lineHeight": 1.16,
               "textAlign": "center"
+            },
+            {
+              "type": "i-text",
+              "left": 10,
+              "top": -114,
+              "angle": 0,
+              "width": 770,
+              "height": 82.54,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "新型コロナウイルス感染症対策により、大学時代に海外留学やサークル活動、\n一部の実習などが制限された結果、十分な自己PRの材料を持たないまま\n就職活動に臨むことを余儀なくされています。",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "22",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
+            },
+            {
+              "type": "i-text",
+              "left": 0,
+              "top": -25,
+              "angle": 0,
+              "width": 704,
+              "height": 53.7,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "実質ＧＤＰ成長率が戦後最悪レベルの落ち込みとなった今、\n従来の就職活動では内定が貰えないという厳しい状況が続いています。",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "22",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
+            },
+            {
+              "type": "image",
+              "left": "-62",
+              "top": "161",
+              "angle": 0,
+              "width": "301.5",
+              "height": "250.6",
+              "stroke": null,
+              "strokeWidth": 0,
+              "fill": "black",
+              "src": "${ this.files[\"大卒就職内定率　図.jpg\"] }"
             }
           ],
           "viewport": [
@@ -333,7 +351,8 @@ this.options.datacommit = false
             600
           ],
           "files": {
-            "大卒就職内定率　図.jpg": "embedded\u002F2f06ad83a895f565bb504bb3e1912a6cae68e13ece8eca282fb1d428aaf6ae3a.jpg"
+            "大卒就職内定率　図.jpg": "embedded\u002F2f06ad83a895f565bb504bb3e1912a6cae68e13ece8eca282fb1d428aaf6ae3a.jpg",
+            "統制プライム条件.png": "embedded\u002F97494ecedbd1159e89d7915e6e4cd418f46a94f5c9727b5d66fac9983b31cdf2.png"
           },
           "responses": {
             "keypress(Enter)": ""
@@ -785,64 +804,84 @@ this.options.datacommit = false
           "type": "lab.flow.Loop",
           "templateParameters": [
             {
-              "set1": "02.PNG"
+              "set1": "02.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "03.PNG"
+              "set1": "03.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "05.PNG"
+              "set1": "05.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "06.PNG"
+              "set1": "06.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "07.PNG"
+              "set1": "07.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "スライド1.PNG"
+              "set1": "スライド1.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド4.PNG"
+              "set1": "スライド4.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド6.PNG"
+              "set1": "スライド6.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド7.PNG"
+              "set1": "スライド7.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "02.PNG"
+              "set1": "02.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "03.PNG"
+              "set1": "03.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "05.PNG"
+              "set1": "05.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "06.PNG"
+              "set1": "06.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "07.PNG"
+              "set1": "07.PNG",
+              "resp": "オシャレ"
             },
             {
-              "set1": "スライド1.PNG"
+              "set1": "スライド1.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド4.PNG"
+              "set1": "スライド4.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド6.PNG"
+              "set1": "スライド6.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド7.PNG"
+              "set1": "スライド7.PNG",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド2.png"
+              "set1": "スライド2.png",
+              "resp": "日用品"
             },
             {
-              "set1": "スライド2.png"
+              "set1": "スライド2.png",
+              "resp": "日用品"
             }
           ],
           "sample": {
@@ -863,7 +902,12 @@ this.options.datacommit = false
               "": ""
             },
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.datacommit = false
+}
+            },
             "title": "Sequence",
             "content": [
               {
@@ -980,7 +1024,8 @@ this.options.datacommit = false
                 },
                 "parameters": {},
                 "messageHandlers": {},
-                "title": "刺激"
+                "title": "刺激",
+                "correctResponse": "${ parameters.resp }"
               },
               {
                 "type": "lab.canvas.Screen",
@@ -1439,64 +1484,84 @@ this.options.datacommit = false
           "type": "lab.flow.Loop",
           "templateParameters": [
             {
-              "set4": "k2.PNG"
+              "set4": "k2.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k4.PNG"
+              "set4": "k4.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k5.PNG"
+              "set4": "k5.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k6.PNG"
+              "set4": "k6.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k7.PNG"
+              "set4": "k7.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "s2.PNG"
+              "set4": "s2.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s4.PNG"
+              "set4": "s4.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s5.PNG"
+              "set4": "s5.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s6.PNG"
+              "set4": "s6.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s7.PNG"
+              "set4": "s7.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "k7.PNG"
+              "set4": "k7.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k6.PNG"
+              "set4": "k6.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k5.PNG"
+              "set4": "k5.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k4.PNG"
+              "set4": "k4.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "k2.PNG"
+              "set4": "k2.PNG",
+              "resp": "回避"
             },
             {
-              "set4": "s7.PNG"
+              "set4": "s7.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s6.PNG"
+              "set4": "s6.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s5.PNG"
+              "set4": "s5.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s4.PNG"
+              "set4": "s4.PNG",
+              "resp": "接近"
             },
             {
-              "set4": "s2.PNG"
+              "set4": "s2.PNG",
+              "resp": "接近"
             }
           ],
           "sample": {
@@ -1517,7 +1582,12 @@ this.options.datacommit = false
               "": ""
             },
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.datacommit = false
+}
+            },
             "title": "Sequence",
             "content": [
               {
@@ -1630,12 +1700,13 @@ this.options.datacommit = false
                   "s7.PNG": "embedded\u002F60288e7e43b41d6de89bc7929fd43645163424e2fb712f1f9855412d847edc74.PNG"
                 },
                 "responses": {
-                  "keypress(f)": "接近",
-                  "keypress(j)": "回避"
+                  "keypress(j)": "接近",
+                  "keypress(f)": "回避"
                 },
                 "parameters": {},
                 "messageHandlers": {},
-                "title": "刺激"
+                "title": "刺激",
+                "correctResponse": "${ parameters.resp }"
               },
               {
                 "type": "lab.canvas.Screen",
@@ -2027,124 +2098,164 @@ this.options.datacommit = false
           "type": "lab.flow.Loop",
           "templateParameters": [
             {
-              "set5": "k2.PNG"
+              "set5": "k2.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k4.PNG"
+              "set5": "k4.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k5.PNG"
+              "set5": "k5.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k6.PNG"
+              "set5": "k6.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k7.PNG"
+              "set5": "k7.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "s2.PNG"
+              "set5": "s2.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s4.PNG"
+              "set5": "s4.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s5.PNG"
+              "set5": "s5.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s6.PNG"
+              "set5": "s6.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s7.PNG"
+              "set5": "s7.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "02.PNG"
+              "set5": "02.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "03.PNG"
+              "set5": "03.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "05.PNG"
+              "set5": "05.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "06.PNG"
+              "set5": "06.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "07.PNG"
+              "set5": "07.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "スライド1.PNG"
+              "set5": "スライド1.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド4.PNG"
+              "set5": "スライド4.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド6.PNG"
+              "set5": "スライド6.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド7.PNG"
+              "set5": "スライド7.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド1.PNG"
+              "set5": "スライド1.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド4.PNG"
+              "set5": "スライド4.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド6.PNG"
+              "set5": "スライド6.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド7.PNG"
+              "set5": "スライド7.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "07.PNG"
+              "set5": "07.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "06.PNG"
+              "set5": "06.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "05.PNG"
+              "set5": "05.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "03.PNG"
+              "set5": "03.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "02.PNG"
+              "set5": "02.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "s7.PNG"
+              "set5": "s7.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s6.PNG"
+              "set5": "s6.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s5.PNG"
+              "set5": "s5.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s4.PNG"
+              "set5": "s4.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "s2.PNG"
+              "set5": "s2.PNG",
+              "resp": "日用品接近"
             },
             {
-              "set5": "k7.PNG"
+              "set5": "k7.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k6.PNG"
+              "set5": "k6.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k5.PNG"
+              "set5": "k5.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k4.PNG"
+              "set5": "k4.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "k2.PNG"
+              "set5": "k2.PNG",
+              "resp": "オシャレ回避"
             },
             {
-              "set5": "スライド2.png"
+              "set5": "スライド2.png",
+              "resp": "日用品接近"
             },
             {
-              "set5": "スライド2.png"
+              "set5": "スライド2.png",
+              "resp": "日用品接近"
             }
           ],
           "sample": {
@@ -2165,7 +2276,12 @@ this.options.datacommit = false
               "": ""
             },
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.datacommit = false
+}
+            },
             "title": "Sequence",
             "content": [
               {
@@ -2292,7 +2408,8 @@ this.options.datacommit = false
                 },
                 "parameters": {},
                 "messageHandlers": {},
-                "title": "刺激"
+                "title": "刺激",
+                "correctResponse": "${ parameters.resp }"
               },
               {
                 "type": "lab.canvas.Screen",
@@ -2505,7 +2622,7 @@ this.options.datacommit = false
 this.options.datacommit = false
 }
               },
-              "title": "inst_5"
+              "title": "Inst_5"
             },
             {
               "type": "lab.canvas.Screen",
@@ -2673,64 +2790,84 @@ this.options.datacommit = false
           "type": "lab.flow.Loop",
           "templateParameters": [
             {
-              "set2": "k2.PNG"
+              "set2": "k2.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k4.PNG"
+              "set2": "k4.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k5.PNG"
+              "set2": "k5.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k6.PNG"
+              "set2": "k6.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k7.PNG"
+              "set2": "k7.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "s4.PNG"
+              "set2": "s4.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s5.PNG"
+              "set2": "s5.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s6.PNG"
+              "set2": "s6.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s7.PNG"
+              "set2": "s7.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "k2.PNG"
+              "set2": "k2.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k4.PNG"
+              "set2": "k4.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k5.PNG"
+              "set2": "k5.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k6.PNG"
+              "set2": "k6.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "k7.PNG"
+              "set2": "k7.PNG",
+              "resp": "回避"
             },
             {
-              "set2": "s7.PNG"
+              "set2": "s7.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s6.PNG"
+              "set2": "s6.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s5.PNG"
+              "set2": "s5.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s4.PNG"
+              "set2": "s4.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s2.PNG"
+              "set2": "s2.PNG",
+              "resp": "接近"
             },
             {
-              "set2": "s2.PNG"
+              "set2": "s2.PNG",
+              "resp": "接近"
             }
           ],
           "sample": {
@@ -2751,7 +2888,12 @@ this.options.datacommit = false
               "": ""
             },
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.datacommit = false
+}
+            },
             "title": "Sequence",
             "content": [
               {
@@ -2869,7 +3011,8 @@ this.options.datacommit = false
                 },
                 "parameters": {},
                 "messageHandlers": {},
-                "title": "刺激"
+                "title": "刺激",
+                "correctResponse": "${ parameters.resp }"
               },
               {
                 "type": "lab.canvas.Screen",
@@ -3253,124 +3396,164 @@ this.options.datacommit = false
           "type": "lab.flow.Loop",
           "templateParameters": [
             {
-              "set3": "k2.PNG"
+              "set3": "k2.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k4.PNG"
+              "set3": "k4.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k5.PNG"
+              "set3": "k5.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k6.PNG"
+              "set3": "k6.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k7.PNG"
+              "set3": "k7.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "s2.PNG"
+              "set3": "s2.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s4.PNG"
+              "set3": "s4.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s5.PNG"
+              "set3": "s5.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s6.PNG"
+              "set3": "s6.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s7.PNG"
+              "set3": "s7.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "02.PNG"
+              "set3": "02.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "03.PNG"
+              "set3": "03.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "05.PNG"
+              "set3": "05.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "06.PNG"
+              "set3": "06.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "07.PNG"
+              "set3": "07.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "スライド1.PNG"
+              "set3": "スライド1.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド4.PNG"
+              "set3": "スライド4.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド6.PNG"
+              "set3": "スライド6.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド7.PNG"
+              "set3": "スライド7.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド7.PNG"
+              "set3": "スライド7.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド6.PNG"
+              "set3": "スライド6.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド1.PNG"
+              "set3": "スライド1.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド4.PNG"
+              "set3": "スライド4.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "07.PNG"
+              "set3": "07.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "06.PNG"
+              "set3": "06.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "05.PNG"
+              "set3": "05.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "03.PNG"
+              "set3": "03.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "02.PNG"
+              "set3": "02.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s7.PNG"
+              "set3": "s7.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s6.PNG"
+              "set3": "s6.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s5.PNG"
+              "set3": "s5.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s4.PNG"
+              "set3": "s4.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "s2.PNG"
+              "set3": "s2.PNG",
+              "resp": "オシャレ接近"
             },
             {
-              "set3": "k2.PNG"
+              "set3": "k2.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k4.PNG"
+              "set3": "k4.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k5.PNG"
+              "set3": "k5.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k6.PNG"
+              "set3": "k6.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "k7.PNG"
+              "set3": "k7.PNG",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド2.png"
+              "set3": "スライド2.png",
+              "resp": "日用品回避"
             },
             {
-              "set3": "スライド2.png"
+              "set3": "スライド2.png",
+              "resp": "日用品回避"
             }
           ],
           "sample": {
@@ -3391,7 +3574,12 @@ this.options.datacommit = false
               "": ""
             },
             "parameters": {},
-            "messageHandlers": {},
+            "messageHandlers": {
+              "before:prepare": function anonymous(
+) {
+this.options.datacommit = false
+}
+            },
             "title": "Sequence",
             "content": [
               {
@@ -3518,7 +3706,8 @@ this.options.datacommit = false
                 },
                 "parameters": {},
                 "messageHandlers": {},
-                "title": "刺激"
+                "title": "刺激",
+                "correctResponse": "${ parameters.resp }"
               },
               {
                 "type": "lab.canvas.Screen",
@@ -3610,12 +3799,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K1"
             },
             {
@@ -3658,12 +3842,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K2"
             },
             {
@@ -3716,12 +3895,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K3"
             },
             {
@@ -3775,12 +3949,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K4"
             },
             {
@@ -3835,12 +4004,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K5"
             },
             {
@@ -3897,12 +4061,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K6"
             },
             {
@@ -3958,12 +4117,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K7"
             },
             {
@@ -4019,12 +4173,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K8"
             },
             {
@@ -4080,12 +4229,7 @@ this.options.datacommit = false
                 "": ""
               },
               "parameters": {},
-              "messageHandlers": {
-                "before:prepare": function anonymous(
-) {
-this.options.datacommit = false
-}
-              },
+              "messageHandlers": {},
               "title": "Questionnaire　K9"
             }
           ]
