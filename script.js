@@ -180,7 +180,7 @@ this.options.datacommit = false
                 }
               ],
               "label": "性別についてあてはまるものをクリックしてください。",
-              "name": ""
+              "name": "gender"
             }
           ],
           "scrollTop": true,
